@@ -13,21 +13,15 @@ class MeView extends BaseComponent {
         return (
             <View style={[CommonStyle.root]}>
                 <View style={styles.header_layout}>
-                    <Image
-                        source={require("../../img/me_header.png")} />
-                    <Text style={styles.header_text}>
-                        我的
-                    </Text>
-                    <Image
-                        source={require("../../img/me_setting.png")} />
+                    <Image source={require("../../img/me_header.png")} />
+                    <Text style={styles.header_text}>我的</Text>
+                    <Image source={require("../../img/me_setting.png")} />
                 </View>
                 <View style={styles.header_view}>
-                    <Text
-                        style={{ marginTop: 24, fontSize: 18, color: '#353535' }}>
+                    <Text style={{ marginTop: 24, fontSize: 18, color: '#353535' }}>
                         Jack
                     </Text>
-                    <Image
-                        source={require('../../img/default_icon.png')}
+                    <Image source={require('../../img/default_icon.png')}
                         style={styles.header_image} />
 
                     <ImageBackground
@@ -35,11 +29,8 @@ class MeView extends BaseComponent {
                         source={require('../../img/me_rect.png')}
                         style={styles.imageBackground}>
                         <View>
-                            <Text style={{ fontSize: 17, color: '#FFFFFF' }}>
-                                强力推荐卡
-                            </Text>
-                            <Text
-                                style={{ fontSize: 14, color: '#FFFFFF', marginTop: 12 }}>
+                            <Text style={{ fontSize: 17, color: '#FFFFFF' }}>强力推荐卡</Text>
+                            <Text style={{ fontSize: 14, color: '#FFFFFF', marginTop: 12 }}>
                                 最给力的书单就在这里
                             </Text>
                         </View>
@@ -49,31 +40,25 @@ class MeView extends BaseComponent {
 
                 <View style={styles.like_book_view}>
                     <Image source={require('../../img/me_like.png')} />
-                    <Text
-                        style={{ flex: 1, marginLeft: 8, color: '#636362', fontSize: 14 }}>
+                    <Text style={{ flex: 1, marginLeft: 8, color: '#636362', fontSize: 14 }}>
                         我想要的书籍
                     </Text>
-                    <Text
-                        style={{ color: '#636362', fontSize: 21 }}>
+                    <Text style={{ color: '#636362', fontSize: 21 }}>
                         0<Text style={{ fontSize: 14 }}>本</Text>
                     </Text>
                 </View>
                 <View style={styles.shoucang_book}>
-                    <Image
-                        source={require('../../img/me_shoucang.png')} />
-                    <Text
-                        style={{ flex: 1, marginLeft: 8, color: '#636362', fontSize: 14 }}>
+                    <Image source={require('../../img/me_shoucang.png')} />
+                    <Text style={{ flex: 1, marginLeft: 8, color: '#636362', fontSize: 14 }}>
                         我收藏的书籍
                     </Text>
-                    <Text
-                        style={{ color: '#636362', fontSize: 21 }}>
+                    <Text style={{ color: '#636362', fontSize: 21 }}>
                         0<Text style={{ fontSize: 14 }}>本</Text>
                     </Text>
                 </View>
                 <View style={styles.dianzan_book}>
                     <Image source={require('../../img/me_dianzan.png')} />
-                    <Text
-                        style={{ flex: 1, marginLeft: 8, color: '#636362', fontSize: 14 }}>
+                    <Text style={{ flex: 1, marginLeft: 8, color: '#636362', fontSize: 14 }}>
                         我点赞的书籍
                     </Text>
                     <Text style={{ color: '#636362', fontSize: 21 }}>
