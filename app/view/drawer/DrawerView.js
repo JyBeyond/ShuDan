@@ -7,7 +7,7 @@ class DrawerView extends Component {
         return (
             <View style={[CommonStyle.root, { backgroundColor: '#FFFFFF' }]}>
                 <View style={{ alignItems: 'center' }}>
-ß
+                
                     <ImageBackground
                         source={require('../../img/drawer_icon2.png')}
                         style={styles.imgbackground}>
