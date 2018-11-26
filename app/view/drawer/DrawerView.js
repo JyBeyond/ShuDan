@@ -7,14 +7,20 @@ class DrawerView extends Component {
         return (
             <View style={[CommonStyle.root, { backgroundColor: '#FFFFFF' }]}>
                 <View style={{ alignItems: 'center' }}>
-                    <ImageBackground source={require('../../img/drawer_icon2.png')} style={{ width: '100%', height: 185, marginTop: 10, marginBottom: 10, justifyContent: 'center' }}>
-                        <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 16 }}>
+ß
+                    <ImageBackground
+                        source={require('../../img/drawer_icon2.png')}
+                        style={styles.imgbackground}>
+                        <View style={styles.top_view}>
                             <Image source={require('../../img/default_icon.png')} />
-                            <Text style={{ color: '#FFFFFF', fontSize: 14, marginLeft: 10 }}> Jack</Text>
+                            <Text style={styles.text_name}> Jack</Text>
                         </View>
-                        <Text style={{ color: '#FFFFFF', fontSize: 14, marginTop: 16, marginLeft: 16 }}>送给程序员的爱心书单</Text>
+                        <Text style={styles.text_desc}>送给程序员的爱心书单</Text>
                     </ImageBackground>
-                    <Image source={require('../../img/drawer_icon1.png')} style={{ position: 'absolute', bottom: 0, right: 0 }} />
+
+                    <Image
+                        source={require('../../img/drawer_icon1.png')}
+                        style={styles.img} />
                 </View>
 
                 <View style={styles.bottom_view}>
@@ -26,6 +32,33 @@ class DrawerView extends Component {
     }
 }
 const styles = StyleSheet.create({
+    imgbackground: {
+        width: '100%',
+        height: 185,
+        marginTop: 10,
+        marginBottom: 10,
+        justifyContent: 'center'
+    },
+    text_name: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginLeft: 16
+    },
+    img: {
+        position: 'absolute',
+        bottom: 0,
+        right: 0
+    },
+    text_desc: {
+        color: '#FFFFFF',
+        fontSize: 14, marginTop: 16,
+        marginLeft: 16
+    },
+    top_text: {
+        color: '#FFFFFF',
+        fontSize: 14,
+        marginLeft: 10
+    },
     bottom_view: {
         borderBottomColor: '#828181',
         borderBottomWidth: 0.5,
