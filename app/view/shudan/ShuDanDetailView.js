@@ -237,7 +237,7 @@ const styles = StyleSheet.create({
         width: Constant.screenWidth,
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: 'EAE9E7',
+        backgroundColor: '#EAE9E7',
     },
     view_btn: {
         marginRight: 10,

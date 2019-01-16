@@ -7,7 +7,7 @@ class DrawerView extends Component {
         return (
             <View style={[CommonStyle.root, { backgroundColor: '#FFFFFF' }]}>
                 <View style={{ alignItems: 'center' }}>
-                
+
                     <ImageBackground
                         source={require('../../img/drawer_icon2.png')}
                         style={styles.imgbackground}>
@@ -68,6 +68,12 @@ const styles = StyleSheet.create({
         paddingBottom: 16,
         marginLeft: 8,
         marginRight: 8
+    },
+    top_view: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginLeft: 16
+
     }
 })
 export default DrawerView;
