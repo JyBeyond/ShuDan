@@ -1503,6 +1503,11 @@ clamp@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/clamp/download/clamp-1.0.1.tgz#66a0e64011816e37196828fdc8c8c147312c8634"
 
+clamp@^1.0.1:
+  version "1.0.1"
+  resolved "http://registry.npm.taobao.org/clamp/download/clamp-1.0.1.tgz#66a0e64011816e37196828fdc8c8c147312c8634"
+  integrity sha1-ZqDmQBGBbjcZaCj9yMjBRzEshjQ=
+
 class-utils@^0.3.5:
   version "0.3.6"
   resolved "http://registry.npm.taobao.org/class-utils/download/class-utils-0.3.6.tgz#f93369ae8b9a7ce02fd41faad0ca83033190c463"
@@ -2337,6 +2342,11 @@ gud@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/gud/download/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
 
+gud@^1.0.0:
+  version "1.0.0"
+  resolved "http://registry.npm.taobao.org/gud/download/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
+  integrity sha1-pIlYGxfmpwvsqavjrlfeekmYUsA=
+
 handlebars@^4.0.3:
   version "4.0.12"
   resolved "http://registry.npm.taobao.org/handlebars/download/handlebars-4.0.12.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
@@ -2709,6 +2719,11 @@ is-windows@^1.0.2:
 isarray@0.0.1:
   version "0.0.1"
   resolved "http://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+
+isarray@0.0.1:
+  version "0.0.1"
+  resolved "http://registry.npm.taobao.org/isarray/download/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
 
 isarray@1.0.0, isarray@~1.0.0:
   version "1.0.0"
@@ -3997,6 +4012,13 @@ path-to-regexp@^1.7.0:
   dependencies:
     isarray "0.0.1"
 
+path-to-regexp@^1.7.0:
+  version "1.7.0"
+  resolved "http://registry.npm.taobao.org/path-to-regexp/download/path-to-regexp-1.7.0.tgz#59fde0f435badacba103a84e9d3bc64e96b9937d"
+  integrity sha1-Wf3g9DW62suhA6hOnTvGTpa5k30=
+  dependencies:
+    isarray "0.0.1"
+
 path-type@^1.0.0:
   version "1.1.0"
   resolved "http://registry.npm.taobao.org/path-type/download/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -4158,6 +4180,14 @@ qs@~6.5.2:
 query-string@^6.1.0:
   version "6.2.0"
   resolved "http://registry.npm.taobao.org/query-string/download/query-string-6.2.0.tgz#468edeb542b7e0538f9f9b1aeb26f034f19c86e1"
+  dependencies:
+    decode-uri-component "^0.2.0"
+    strict-uri-encode "^2.0.0"
+
+query-string@^6.1.0:
+  version "6.2.0"
+  resolved "http://registry.npm.taobao.org/query-string/download/query-string-6.2.0.tgz#468edeb542b7e0538f9f9b1aeb26f034f19c86e1"
+  integrity sha1-Ro7etUK34FOPn5sa6ybwNPGchuE=
   dependencies:
     decode-uri-component "^0.2.0"
     strict-uri-encode "^2.0.0"
@@ -4920,6 +4950,11 @@ stream-buffers@~2.2.0:
 strict-uri-encode@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "http://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
+  integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
 string-length@^2.0.0:
   version "2.0.0"
