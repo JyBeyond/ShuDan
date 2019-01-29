@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { View, TextInput, StyleSheet, TouchableOpacity, Image, Text } from 'react-native';
 import CommonStyle from '../../common/CommonStyle';
 import BaseComponent from '../../component/BaseComponent';
+import { isEmpity } from '../../util/StringUtil';
+import { toastShort } from '../../util/ToastUtil';
 class RegisterView extends BaseComponent {
 
     constructor(props) {
@@ -80,6 +82,7 @@ class RegisterView extends BaseComponent {
                     placeholderTextColor={'#828181'}
                     underlineColorAndroid="transparent"
                     onChangeText={this.onChangeTextPsw}
+                    keyboardType="numeric"
                     value={this.state.psw}
                 />
 
