@@ -91,6 +91,8 @@ class LoginView extends BaseComponent {
                     placeholderTextColor={'#828181'}
                     underlineColorAndroid="transparent"
                     onChangeText={this.onChangeTextPsw}
+                    keyboardType="numeric"
+                    secureTextEntry={true}                 
                     value={this.state.psw}
                 />
                 <Text style={styles.text_register_desc}
