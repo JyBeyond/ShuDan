@@ -27,7 +27,7 @@ class RegisterView extends BaseComponent {
             return;
         }
         toastShort("注册成功");
-        this.props.navigation.goback();
+        this.props.navigation.goBack();
     }
 
     /**
